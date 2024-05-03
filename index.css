@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(19, 2, 2);
+    color:white
+}
+.hide{
+    display:none
+}
+.container{
+    width:40%;
+    background-color: rgb(43, 4, 4);
+    height:300px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 150px;
+    text-align: center;
+    border-radius: 20px;
+}
+#action{
+    padding-top: 50px;
+    font-size: 30px;
+}
+#result{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+button{
+    color:white;
+    background-color: rgb(54, 41, 41);
+    width:100px;
+    height: 30px;
+    border:none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(19, 2, 2);
+}
+#text-to-copy{
+    position:fixed;
+    opacity: 0;
+}
+@media only screen and (max-width: 480px){
+    body{
+        width:100%;
+        overflow-x: hidden;
+    }
+    .container{
+        width:90%;
+        margin: 0;
+        margin-left: 3%;
+        margin-right: 3%;
+        height:640px
+    }
+    #action{
+        padding-top: 100px;
+    }
+    input{
+        height: fit-content;
+        width:200px;
+        overflow: ;
+        
+    }
+}
